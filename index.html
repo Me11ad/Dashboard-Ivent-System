@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="index.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Расписание института</title>
+    <style data-styled="active" data-styled-version="5.3.6">.jKHSTo{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:45px;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:5px;color:#1e1e1e;border-radius:35px;font-size:15px;cursor:pointer;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;gap:20px;}@media screen and (max-width:768px){.jKHSTo{position:fixed;width:100%;max-width:100%;bottom:0;margin:0;left:0;right:0;padding-top:5px;height:55px;border-radius:15px 15px 0 0;background:#fff;box-shadow:0 0 10px 10px #f1f1f1;border:none;z-index:100;font-size:12px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}}.kkefQv{width:160px;padding:3px 10px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:99%;border-radius:30px;background:#F2F2F2;color:#4b4b4b;font-weight:500;background:#EABC5D;padding:10px;}.ctHkEn{width:160px;padding:3px 10px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:99%;border-radius:30px;background:#F2F2F2;}.jhoGjs{color:#777777;font-size:20px;height:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}@media screen and (max-width:768px){.jhoGjs{position:relative;width:100%;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;height:calc(100% - 55px);}}.dZjwwL{margin-right:50px;margin-top:20px;}@media screen and (max-width:768px){.dZjwwL{margin:0 auto;}}.fBiJmS{margin-bottom:2px;cursor:pointer;-webkit-transition:0.1s;transition:0.1s;padding:10px;border-radius:5px;width:-webkit-max-content;width:-moz-max-content;width:max-content;}.fBiJmS:hover{background:#fff4d4;}.bzMScE{max-width:100%;position:relative;min-height:100vh;padding:50px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}@media screen and (max-width:1100px){.bzMScE{border:none;min-height:calc(100vh - 55px);margin-top:20px;padding:0 0 100px;}}.jzYZjm{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;font-size:18px;color:rgb(102,102,102);}@media screen and (max-width:768px){.jzYZjm{position:relative;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}}.hlvIVY{margin-right:20px;font-size:15px;margin-top:7px;display:none;}@media screen and (max-width:768px){.hlvIVY{display:block;font-size:13px;}}.fWfOzk{margin-right:20px;font-size:15px;margin-top:7px;display:block;}@media screen and (max-width:768px){.fWfOzk{display:none;font-size:13px;}}.fOQfnZ{padding:5px 20px;border-radius:10px;color:#9b9b9b;font-size:15px;cursor:pointer;border:1px solid #cbcbcb;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;text-align:center;-webkit-transition:0.2s;transition:0.2s;}.fOQfnZ:hover{background:#8a8a8a;border:1px solid #8a8a8a;color:white;}.eMLpEE{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}@media screen and (max-width:768px){.eMLpEE{margin-left:auto;margin-right:auto;margin-bottom:20px;}}.eMLpEE *{cursor:pointer;}.eMLpEE input{display:none;}.eMLpEE input:checked + label{background:#ffc859;}.eMLpEE input:checked + label .inner{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.eMLpEE label{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:0;padding:10px 20px;border-radius:10px;background:#FFD888;border:1px solid #E5A31B;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.eMLpEE .check{border-radius:7px;border:1px solid #E5A31B;background:white;width:22px;height:22px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.eMLpEE .inner{width:12px;height:12px;background:#E5A31B;border-radius:3px;display:none;}.eMLpEE .text{color:#414141;text-align:center;font-size:16px;font-style:normal;font-weight:400;line-height:normal;margin-left:10px;}.fBwHho{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.fBwHho .timetable-pdf-m{display:none;}@media screen and (max-width:768px){.fBwHho{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.fBwHho .timetable-pdf{display:none;}.fBwHho .timetable-pdf-m{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:0 auto;}.fBwHho .filters{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:100%;padding:0 20px;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}}.gilFSx{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;gap:20px;margin-bottom:40px;}@media screen and (max-width:768px){.gilFSx{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin-bottom:10px;}}.MowVe{border-radius:10px;background:#FFEBC0;width:254px;height:45px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;cursor:pointer;-webkit-transition:.2s;transition:.2s;color:#4b4b4b;}.MowVe:hover{background:#ffcc69;}.gXyMSU{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;height:400px;font-size:24px;font-weight:600;color:#7c7c7c;}.eHnlUl{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}@media screen and (max-width:768px){.eHnlUl{display:none;}}.jHfjBj{margin:20px;}.ghoKxL{height:90px;overflow:hidden;border-bottom:1px solid #cbcbcb;background:rgba(234,188,93,0.0784313725);position:relative;}.kzNfyn{background:none;}.jXQuMU{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;position:relative;height:16px;}.bsgPLt{font-size:11px;font-weight:600;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-radius:3px;padding:0 10px;background:rgb(255,242,211);color:#1e1e1e;}.BuxGM{height:16px;font-size:12px;margin-bottom:-20px;border-right:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:20px;border-radius:3px;}.kaKrjP{padding-top:5px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex:1;-ms-flex:1;flex:1;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;width:100%;height:75%;padding-left:10px;padding-right:10px;}.fbiKdd{font-size:12px !important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;max-width:200px;}.fVETcF{max-width:103px;}.jwpYvA{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:end;-webkit-box-align:end;-ms-flex-align:end;align-items:end;}.cEdoFZ{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:start;-webkit-box-align:start;-ms-flex-align:start;align-items:start;width:50%;}.cXTFrl{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:12px;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#7a7a7a;}.eebhuj{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-right:8px;font-size:12px;color:#494949;border-radius:10px;padding-top:5px;}.jcasoB span{font-size:48px;font-weight:bold;color:rgba(189,189,189,0.27);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:5px;}.dxzYBp{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}.cRdHxy{margin:20px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:100%;}.ksvKyn{font-weight:600;color:#858585;text-align:center;width:100%;margin-top:60px;font-size:30px;}.gafAuE{font-weight:600;color:#858585;font-size:20px;width:100%;padding-left:5px;}.kylpZZ{font-size:24px;color:#4b4b4b;}</style>
+    <style data-emotion="css" data-s="">.css-1w1bgn4-MuiSkeleton-root{display:block;background-color:rgba(0, 0, 0, 0.11);height:auto;margin-top:0;margin-bottom:0;transform-origin:0 55%;-webkit-transform:scale(1, 0.60);-moz-transform:scale(1, 0.60);-ms-transform:scale(1, 0.60);transform:scale(1, 0.60);border-radius:4px/6.7px;-webkit-animation:animation-c7515d 1.5s ease-in-out 0.5s infinite;animation:animation-c7515d 1.5s ease-in-out 0.5s infinite;margin-bottom:15px;}</style>
+    <style data-emotion="css" data-s="">.css-1w1bgn4-MuiSkeleton-root:empty:before{content:"\00a0";}</style>
+    <style data-emotion="css" data-s="">@-webkit-keyframes animation-c7515d{0%{opacity:1;}50%{opacity:0.4;}100%{opacity:1;}}</style>
+    <style data-emotion="css" data-s="">@keyframes animation-c7515d{0%{opacity:1;}50%{opacity:0.4;}100%{opacity:1;}}</style>
+    <style data-emotion="css" data-s="">.css-1n7gpw1-MuiSkeleton-root{display:block;background-color:rgba(0, 0, 0, 0.11);height:auto;margin-top:0;margin-bottom:0;transform-origin:0 55%;-webkit-transform:scale(1, 0.60);-moz-transform:scale(1, 0.60);-ms-transform:scale(1, 0.60);transform:scale(1, 0.60);border-radius:4px/6.7px;-webkit-animation:animation-c7515d 1.5s ease-in-out 0.5s infinite;animation:animation-c7515d 1.5s ease-in-out 0.5s infinite;}</style>
+    <style data-emotion="css" data-s="">.css-1n7gpw1-MuiSkeleton-root:empty:before{content:"\00a0";}</style>
+    <style data-emotion="css" data-s="">@-webkit-keyframes animation-c7515d{0%{opacity:1;}50%{opacity:0.4;}100%{opacity:1;}}</style>
+    <style data-emotion="css" data-s="">@keyframes animation-c7515d{0%{opacity:1;}50%{opacity:0.4;}100%{opacity:1;}}</style>
+</head>
+<body>
+    <div id="root">
+        <div class="container-all" style="zoom: 1;">
+            <div class="schedule-all">
+                <div class="splide splide--loop splide--ltr splide--draggable is-active is-overflow is-initialized" id="splide01" role="region" aria-roledescription="carousel" style="max-width: 99%;">
+                    <div class="splide__track splide__track--loop splide__track--ltr splide__track--draggable" id="splide01-track" style="padding-left: 0px; padding-right: 0px;" aria-live="off" aria-atomic="true" aria-busy="false">
+                        <ul class="splide__list" id="splide01-list" role="presentation" style="transform: translateX(-4660.16px);">
+                            <li class="splide__slide is-active is-visible" id="splide01-slide01" role="tabpanel" aria-roledescription="slide" aria-label="1 of 17" style="margin-right: 10px; width: calc(14.2857% - 8.57143px);">
+                                <div class="container-day">
+                                    <div class="row-items">
+                                        <div class="head" style="background: rgb(249, 168, 212);">
+                                            <div class="group">ГД-20/9</div>
+                                        </div>
+                                        <div class="lesson-cont">
+                                            <div class="sc-hHTYSt ghoKxL">
+                                                <div class="sc-fLcnxK jXQuMU">
+                                                    <div class="sc-iveFHk BuxGM">1</div>
+                                                    <div class="sc-bBABsx bsgPLt">8:30-9:50</div>
+                                                </div>
+                                                <div class="sc-cwSeag kaKrjP">
+                                                    <span class="sc-lllmON fbiKdd">Многостраничный дизайн</span>
+                                                    <div class="sc-gikAfH jwpYvA">
+                                                        <div class="sc-bYMpWt cXTFrl">Кудайнетова К.Р.</div>
+                                                        <div class="sc-kMjNwy eebhuj">МК-310</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sc-hHTYSt ghoKxL">
+                                                <div class="sc-fLcnxK jXQuMU">
+                                                    <div class="sc-iveFHk BuxGM">2</div>
+                                                    <div class="sc-bBABsx bsgPLt">10:5-11:25</div>
+                                                </div>
+                                                <div class="sc-cwSeag kaKrjP">
+                                                    <span class="sc-lllmON fbiKdd">Учебная практика (Организация личного профессионального развития и обучения на рабочем месте)</span>
+                                                    <div class="sc-gikAfH jwpYvA">
+                                                        <div class="sc-bYMpWt cXTFrl">Фролова М.С.</div>
+                                                        <div class="sc-kMjNwy eebhuj">МК-310</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sc-hHTYSt ghoKxL">
+                                                <div class="sc-fLcnxK jXQuMU">
+                                                    <div class="sc-iveFHk BuxGM">3</div>
+                                                    <div class="sc-bBABsx bsgPLt">11:40-13:0</div>
+                                                </div>
+                                                <div class="sc-cwSeag kaKrjP">
+                                                    <span class="sc-lllmON fbiKdd">Дизайн упаковки</span>
+                                                    <div class="sc-gikAfH jwpYvA">
+                                                        <div class="sc-bYMpWt cXTFrl">Фролова М.С.</div>
+                                                        <div class="sc-kMjNwy eebhuj">МК-310</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sc-hHTYSt sc-kgTSHT ghoKxL kzNfyn">
+                                                <div class="sc-ilhmMj jcasoB">
+                                                    <span>4</span>
+                                                </div>
+                                            </div>
+                                            <div class="sc-hHTYSt sc-kgTSHT ghoKxL kzNfyn">
+                                                <div class="sc-ilhmMj jcasoB">
+                                                    <span>5</span>
+                                                </div>
+                                            </div>
+                                            <div class="sc-hHTYSt sc-kgTSHT ghoKxL kzNfyn">
+                                                <div class="sc-ilhmMj jcasoB">
+                                                    <span>6</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
